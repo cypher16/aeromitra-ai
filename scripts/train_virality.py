@@ -9,8 +9,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression, SGDClassifier
 from sklearn.metrics import accuracy_score, average_precision_score, confusion_matrix, precision_recall_fscore_support
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
-from sklearn.calibration import CalibratedClassifierCV
-from sklearn.svm import LinearSVC
 
 root = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(root))
@@ -36,7 +34,6 @@ x_test = hstack([text_test, cat_test, num_test])
 models = {
     "majority_baseline": DummyClassifier(strategy="most_frequent"),
     "logistic_regression": LogisticRegression(max_iter=1000, class_weight="balanced", random_state=42),
-    "linear_svm": CalibratedClassifierCV(LinearSVC(class_weight="balanced", random_state=42), cv=3),
     "sgd_log_loss": SGDClassifier(loss="log_loss", class_weight="balanced", max_iter=1000, random_state=42),
 }
 metrics = {"train_rows": len(train_df), "test_rows": len(test_df), "target": "spread", "selection_rule": "highest recall among models with precision >= 0.25; tie-break by F1", "models": {}}

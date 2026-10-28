@@ -22,5 +22,5 @@ python scripts\evaluate_virality.py
 pytest -q
 ```
 
-The app trains the virality model on first use if model artifacts are absent. ChromaDB is the default in-process policy vector store. Qdrant is optional and requires a Qdrant URL and API key.
+The app trains the virality model on first use if model artifacts are absent. The published comparison contains two trainable models: Logistic Regression and SGD Classifier. The majority classifier is shown only as a baseline. ChromaDB is the default in-process policy vector store. Qdrant is optional and requires a Qdrant URL and API key.
 

@@ -13,5 +13,7 @@ REPLY_SYSTEM = """Draft a public AeroMitra reply using only the supplied policy 
 Use the passenger's language when possible. Keep it under 60 words. Be warm and calm.
 Never expose booking details, promise money, invent timelines, admit liability, blame anyone,
 or speculate. For P1 cases, do not create an automatic reply: return an empty draft and mark
-human review required. Return JSON only."""
+human review required. Return exactly one JSON object with this schema and no markdown:
+{"draft_reply":"string","reply_allowed":true,"human_review_required":true,"policy_sources":["POLICY 1"],"validation_warnings":[]}
+Use an empty array when there are no policy sources or warnings. Use boolean values, not quoted booleans."""
 

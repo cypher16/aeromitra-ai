@@ -1,6 +1,7 @@
 import hashlib
 import json
 import os
+import re
 import time
 from pathlib import Path
 
@@ -55,14 +56,23 @@ def chat_json(system: str, user: str, max_tokens: int = 400) -> dict:
     last_error = None
     for attempt in range(4):
         try:
-            response = client.chat.completions.create(
+            request = dict(
                 model=_model_name(),
                 temperature=0,
                 max_tokens=max_tokens,
-                response_format={"type": "json_object"},
                 messages=[{"role": "system", "content": system}, {"role": "user", "content": user}],
             )
-            result = json.loads(response.choices[0].message.content)
+            if attempt < 2:
+                request["response_format"] = {"type": "json_object"}
+            response = client.chat.completions.create(**request)
+            content = response.choices[0].message.content.strip()
+            try:
+                result = json.loads(content)
+            except json.JSONDecodeError:
+                match = re.search(r"\{.*\}", content, flags=re.DOTALL)
+                if not match:
+                    raise
+                result = json.loads(match.group(0))
             cache[cache_key] = result
             cache_path.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
             return result

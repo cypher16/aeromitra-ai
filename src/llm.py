@@ -29,6 +29,15 @@ def _api_key() -> str:
     return ""
 
 
+def _model_name() -> str:
+    try:
+        import streamlit as st
+        value = st.secrets.get("GROQ_MODEL", "")
+    except Exception:
+        value = ""
+    return value or os.getenv("GROQ_MODEL", MODEL_NAME)
+
+
 def chat_json(system: str, user: str, max_tokens: int = 400) -> dict:
     key = _api_key()
     if not key:
@@ -47,7 +56,7 @@ def chat_json(system: str, user: str, max_tokens: int = 400) -> dict:
     for attempt in range(4):
         try:
             response = client.chat.completions.create(
-                model=os.getenv("GROQ_MODEL", MODEL_NAME),
+                model=_model_name(),
                 temperature=0,
                 max_tokens=max_tokens,
                 response_format={"type": "json_object"},

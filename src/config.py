@@ -5,7 +5,7 @@ DATA_DIR = ROOT / "data"
 REPORTS_DIR = ROOT / "reports"
 MODELS_DIR = ROOT / "models"
 POLICY_FILE = DATA_DIR / "aeromitra_policies.txt"
-MODEL_NAME = "llama-3.3-70b-versatile"
+MODEL_NAME = "openai/gpt-oss-120b"
 
 ALLOWED_SENTIMENTS = ["positive", "neutral", "negative"]
 ALLOWED_LANGUAGES = ["English", "Hindi", "Hinglish", "Other"]

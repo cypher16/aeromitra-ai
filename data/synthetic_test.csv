@@ -1,0 +1,192 @@
+post_id,text,language,issue_type,sentiment,severity,escalate,source
+AM-0002,Entertainment screen dead for the whole 4-hour flight. At this price? Really? @AeroMitra,English,comfort_service,negative,low,0,synthetic
+AM-0006,AM518 ke crew ko customer se baat karna sikhaao pehle. aise bolte hain kya?,Hinglish,staff,negative,medium,0,synthetic
+AM-0010,Pune की अगली फ्लाइट कितने बजे है?,Hindi,query,neutral,none,0,synthetic
+AM-0012,singled out for extra checks because of my surname on am600. is this your policy? @aeromitra will be filing a complaint with dgca.,English,discrimination,negative,high,1,synthetic
+AM-0013,Quickest check-in I have had in years at Kolkata. Great job team @AeroMitra,English,praise,positive,none,0,synthetic
+AM-0018,"@AeroMitra flight AM559 phir se late. har baar yahi kahani, time ki koi value nahi hai kya",Hinglish,delay,negative,low,0,synthetic
+AM-0019,Flight me ek yatri ko seene me dard hua aur crew ko first aid ka pata hi nahi tha. dangerous hai ye #AeroMitraFail,Hinglish,safety_medical,negative,high,1,synthetic
+AM-0025,"Smooth flight AM265, friendly crew and on time. Well done @AeroMitra",English,praise,positive,none,0,synthetic
+AM-0026,"AeroMitra app baar baar crash ho raha hai, web check-in nahi ho pa raha, AM517 ka time nikal raha hai 😞",Hinglish,app_booking,negative,low,0,synthetic
+AM-0027,"Wah AeroMitra wah, 2 ghante late aake bol rahe hain 'sorry for inconvenience'. bas yahi bacha tha 🙄",Hinglish,delay,negative,low,0,synthetic
+AM-0034,Stuck at Mumbai airport for 4 hours. No one at the counter has an answer.,English,delay,negative,low,0,synthetic
+AM-0036,Kya AM588 ka status check kar sakte hain? departure time confirm karna tha,Hinglish,query,neutral,none,0,synthetic
+AM-0041,"wah kya service hai, counter wale ne bola 'main kya karu, upar se order hai'. thank you for nothing 👍 media ko bata raha hoon.",Hinglish,staff,negative,medium,1,synthetic
+AM-0043,"Bachon ke saath Ahmedabad me phase hue hain, 3 ghante se late hai AM328. paani tak nahi pucha kisi ne",Hinglish,delay,negative,low,0,synthetic
+AM-0053,"मेरा सामान Ahmedabad पर नहीं पहुँचा, दो दिन से कोई जवाब नहीं @AeroMitra #AeroMitraFail",Hindi,baggage,negative,medium,1,synthetic
+AM-0058,"exam ke liye bengaluru jaana tha, flight cancel. ek saal ki mehnat pe paani phir gaya @aeromitra 😡",Hinglish,cancellation,negative,medium,0,synthetic
+AM-0062,App keeps crashing at payment. Money deducted but no booking. @AeroMitra 😡,English,app_booking,negative,low,0,synthetic
+AM-0063,Denied a wheelchair at Chennai and made to wait 5 hours. Disgraceful for a disabled passenger @AeroMitra,English,discrimination,negative,high,1,synthetic
+AM-0064,"refund request daali thi, ab tak paisa nahi aaya aur customer care wale line kaat dete hain",Hinglish,refund,negative,medium,0,synthetic
+AM-0065,"AeroMitra app baar baar crash ho raha hai, web check-in nahi ho pa raha, AM101 ka time nikal raha hai",Hinglish,app_booking,negative,low,0,synthetic
+AM-0068,एयरपोर्ट पर आपके स्टाफ का व्यवहार बहुत खराब था @AeroMitra #BoycottAeroMitra,Hindi,staff,negative,medium,1,synthetic
+AM-0070,"Dadi ko seat dene se mana kar diya kyunki unki boli gaon wali thi. staff ka ye rawaiya sharmnaak hai Sabko share karunga, RT karo.",Hinglish,discrimination,negative,high,1,synthetic
+AM-0071,"AM251 cancel kar di last minute pe, na message na call. kaise chalega ye @AeroMitra",Hinglish,cancellation,negative,medium,0,synthetic
+AM-0075,"Mera bag toh Goa chala gaya, main Lucknow me hoon. best airline ever, usse vacation pe bhej diya 😂 #BoycottAeroMitra",Hinglish,baggage,negative,medium,1,synthetic
+AM-0076,"Flight theek thi, na bahutttt achhi na buri. khaana average tha @AeroMitra 😡",Hinglish,comfort_service,neutral,low,0,synthetic
+AM-0081,"Refund promised in 7 days. It has been 30. Your word means nothing, AeroMitra. Will go viral if not fixed today.",English,refund,negative,medium,1,synthetic
+AM-0082,AM286 cancel hone ki khabar mujhe airport pahunchne ke baad mili. ye koi tareeka hai kya?,Hinglish,cancellation,negative,medium,0,synthetic
+AM-0083,"Bag miss ho gaya hai Bengaluru pe, claim form kahan bharna hai? @AeroMitra",Hinglish,baggage,neutral,medium,0,synthetic
+AM-0085,AM408 cancelled with no prior notice. Family wedding missed. @AeroMitra explain yourselves,English,cancellation,negative,medium,0,synthetic
+AM-0095,AM348 ke crew ko customer se baat karna sikhaao pehle. aise bolte hain kya?,Hinglish,staff,negative,medium,0,synthetic
+AM-0106,बैग टूटा हुआ मिला और कोई ज़िम्मेदारी लेने को तैयार नहीं #BoycottAeroMitra,Hindi,baggage,negative,medium,1,synthetic
+AM-0114,"मेरा सामान Jaipur पर नहीं पहुँचा, दो दिन से कोई जवाब नहीं @AeroMitra",Hindi,baggage,negative,medium,0,synthetic
+AM-0115,"Khaane me keeda nikla AM400 me, ghar aake pet kharab ho gaya. DGCA ko complain kar raha hoon",Hinglish,safety_medical,negative,high,1,synthetic
+AM-0118,"Boarding 6 baje thi, ab 10 baj gaye. AM189 ka kuch aata pata nahi",Hinglish,delay,negative,low,0,synthetic
+AM-0125,"पैसा कट गया लेकिन टिकट नहीं मिला, रिफंड भी नहीं आ रहा #BoycottAeroMitra",Hindi,refund,negative,medium,1,synthetic
+AM-0126,Denied a wheelchair at Mumbai and made to wait 2 hours. Disgraceful for a disabled passenger @AeroMitra Taking this to the consumer forum.,English,discrimination,negative,high,1,synthetic
+AM-0130,"Baggage belt pe 1 ghanta khade rahe, phir bola gaya 'aapka bag next flight se aayega'. AM429 ke liye ye normal hai?",Hinglish,baggage,negative,medium,0,synthetic
+AM-0131,What is the cabin baggage limit on AM201? @AeroMitra,English,query,neutral,none,0,synthetic
+AM-0133,"Wah AeroMitra wah, shaadi ke din flight cancel. dhanyavaad! 👏 😞",Hinglish,cancellation,negative,medium,0,synthetic
+AM-0137,Found a metal piece in my meal on AM886. This is a serious safety issue. @AeroMitra,English,safety_medical,negative,high,1,synthetic
+AM-0138,"AM132 landing ke time overhead bin se smoke jaisa kuch nikla, crew ne kuch bataya nahi. safety ke saath khilwad",Hinglish,safety_medical,negative,high,1,synthetic
+AM-0140,"Bag miss ho gaya hai Chennai pe, claim form kahan bharna hai? @AeroMitra",Hinglish,baggage,neutral,medium,0,synthetic
+AM-0149,What is the cabin baggage limit on AM202? @AeroMitra,English,query,neutral,none,0,synthetic
+AM-0157,Entertainment screen dead for the whole 6-hour flight. At this price? Really? @AeroMitra,English,comfort_service,negative,low,0,synthetic
+AM-0163,"smooth flight am255, friendly crew and on time. well done @aeromitra",English,praise,positive,none,0,synthetic
+AM-0165,Payment cut gaya but booking confirm nahi hui. app ne dhoka de diya 😤,Hinglish,app_booking,negative,low,0,synthetic
+AM-0167,Bag mila toh hai but poora geela aur ek zip khula hua. @AeroMitra baggage team so rahi hai kya #AeroMitraFail,Hinglish,baggage,negative,medium,1,synthetic
+AM-0170,"AM651 cancel ho gayi hai, rebooking ka option kahan milega? @AeroMitra",Hinglish,cancellation,neutral,medium,0,synthetic
+AM-0174,"Subah se Hyderabad airport pe hain, AM312 cancel ho gayi, alternate flight ka koi plan nahi #AeroMitraFail 😡",Hinglish,cancellation,negative,medium,1,synthetic
+AM-0176,"smooth flight am545, friendly crew and on time. well done @aeromitra 😞",English,praise,positive,none,0,synthetic
+AM-0177,"AeroMitra app baar baar crash ho raha hai, web check-in nahi ho pa raha, AM143 ka time nikal raha hai",Hinglish,app_booking,negative,low,0,synthetic
+AM-0180,AM574 के खाने में कीड़ा निकला। यह सीधे यात्रियों की सेहत से खिलवाड़ है @AeroMitra,Hindi,safety_medical,negative,high,1,synthetic
+AM-0192,Lost my luggage and all I got was a form and a 'we will get back to you'. Day 3 now. 😡,English,baggage,negative,medium,0,synthetic
+AM-0195,"Mera bag toh Goa chala gaya, main Mumbai me hoon. best airline ever, usse vacation pe bhej diya 😂 Consumer court jaunga.",Hinglish,baggage,negative,medium,1,synthetic
+AM-0203,"Subah se Bengaluru airport pe hain, AM187 cancel ho gayi, alternate flight ka koi plan nahi",Hinglish,cancellation,negative,medium,0,synthetic
+AM-0207,What is the cabin baggage limit on AM334? @AeroMitra,English,query,neutral,none,0,synthetic
+AM-0211,website pe seat select karte hi error aa jata hai. 3 baar try kiya @aeromitra,Hinglish,app_booking,negative,low,0,synthetic
+AM-0213,Meri behen ko burqa ki wajah se alag line me khada kiya gaya Goa pe. ye discrimination nahi toh kya hai,Hinglish,discrimination,negative,high,1,synthetic
+AM-0214,Denied a wheelchair at Chennai and made to wait 3 hours. Disgraceful for a disabled passenger @AeroMitra,English,discrimination,negative,high,1,synthetic
+AM-0219,Still waiting on my refund after 15 days. Customer care keeps saying 'in process' @AeroMitra,English,refund,negative,medium,0,synthetic
+AM-0222,"AeroMitra app baar baar crash ho raha hai, web check-in nahi ho pa raha, AM668 ka time nikal raha hai",Hinglish,app_booking,negative,low,0,synthetic
+AM-0224,Rude check-in staff at Goa. Zero empathy and no apology. @AeroMitra,English,staff,negative,medium,0,synthetic
+AM-0227,"पैसा कट गया लेकिन टिकट नहीं मिला, रिफंड भी नहीं आ रहा मीडिया को बताऊँगा।",Hindi,refund,negative,medium,1,synthetic
+AM-0232,"Smooth flight AM745, friendly crew and on time. Well done @AeroMitra",English,praise,positive,none,0,synthetic
+AM-0237,"Kal ki flight ekdum mast thi, seat comfortable aur khaana bhi accha tha 👌",Hinglish,praise,positive,none,0,synthetic
+AM-0242,"Last minute booking thi aur @AeroMitra ne seat de di, kya baat hai! 😍 😡",Hinglish,praise,positive,none,0,synthetic
+AM-0243,Quickest check-in I have had in years at Jaipur. Great job team @AeroMitra,English,praise,positive,none,0,synthetic
+AM-0244,@AeroMitra Jaipur se Delhi ki flight me extra baggage ka charge kitna lagega?,Hinglish,query,neutral,none,0,synthetic
+AM-0248,"Wah AeroMitra wah, 4 ghante late aake bol rahe hain 'sorry for inconvenience'. bas yahi bacha tha 🙄",Hinglish,delay,negative,low,0,synthetic
+AM-0249,Meri behen ko burqa ki wajah se alag line me khada kiya gaya Lucknow pe. ye discrimination nahi toh kya h Consumer court jaunga.,Hinglish,discrimination,negative,high,1,synthetic
+AM-0250,Oxygen mask demo skipped on AM533 and a door light kept blinking. Not okay at all. @AeroMitra,English,safety_medical,negative,high,1,synthetic
+AM-0252,"क्रू ने बदतमीज़ी से बात की, कोई माफ़ी तक नहीं मांगी",Hindi,staff,negative,medium,0,synthetic
+AM-0253,Lost my luggage and all I got was a form and a 'we will get back to you'. Day 3 now. 😞,English,baggage,negative,medium,0,synthetic
+AM-0266,"@AeroMitra paisa wapas karo yaar, flight tumne cancel ki aur refund me bhi tang kar rahe ho",Hinglish,refund,negative,medium,0,synthetic
+AM-0267,Meri behen ko burqa ki wajah se alag line me khada kiya gaya Jaipur pe. ye discrimination nahi toh kya hai,Hinglish,discrimination,negative,high,1,synthetic
+AM-0272,"मेरा सामान Chennai पर नहीं पहुँचा, दो दिन से कोई जवाब नहीं @AeroMitra #BoycottAeroMitra",Hindi,baggage,negative,medium,1,synthetic
+AM-0274,"AM220 bilkul time pe land hui, crew bahutttt helpful tha. thank you @AeroMitra",Hinglish,praise,positive,none,0,synthetic
+AM-0275,"Subah se Kochi airport pe hain, AM822 cancel ho gayi, alternate flight ka koi plan nahi",Hinglish,cancellation,negative,medium,0,synthetic
+AM-0282,Refund aaya hai 'in process' me hi 15 din se. process hai ya purana school ka exam result? 😤,Hinglish,refund,negative,medium,0,synthetic
+AM-0283,"double payment kat gaya booking me, ek wapas karne me itna time kyun lag raha hai @aeromitra consumer court jaunga.",Hinglish,refund,negative,medium,1,synthetic
+AM-0284,एयरपोर्ट पर आपके स्टाफ का व्यवहार बहुत खराब था @AeroMitra #AeroMitraFail,Hindi,staff,negative,medium,1,synthetic
+AM-0285,Refund status kaise check karun? booking id ke saath kya karna hai @AeroMitra,Hinglish,refund,neutral,medium,0,synthetic
+AM-0286,"Exam ke liye Mumbai jaana tha, flight cancel. ek saal ki mehnat pe paani phir gaya @AeroMitra 😡",Hinglish,cancellation,negative,medium,0,synthetic
+AM-0287,"best experience in a long time, lucknow se smooth flight aur free upgrade bhi mil gaya!",Hinglish,praise,positive,none,0,synthetic
+AM-0288,Still waiting on my refund after 21 days. Customer care keeps saying 'in process' @AeroMitra,English,refund,negative,medium,0,synthetic
+AM-0289,AM606 के खाने में कीड़ा निकला। यह सीधे यात्रियों की सेहत से खिलवाड़ है @AeroMitra,Hindi,safety_medical,negative,high,1,synthetic
+AM-0298,"AM431 landing ke time overhead bin se smoke jaisa kuch nikla, crew ne kuch bataya nahi. safety ke saath khilwad Media ko bata raha hoon.",Hinglish,safety_medical,negative,high,1,synthetic
+AM-0302,Flight cancel hui aur ab naya ticket 3 guna mehnga dikha rahe hain. loot macha rakhi hai,Hinglish,cancellation,negative,medium,0,synthetic
+AM-0307,"khaane me keeda nikla am565 me, ghar aake pet kharab ho gaya. dgca ko complain kar raha hoon",Hinglish,safety_medical,negative,high,1,synthetic
+AM-0308,व्हीलचेयर मांगने पर स्टाफ ने मज़ाक उड़ाया और घंटों इंतज़ार कराया #BoycottAeroMitra,Hindi,discrimination,negative,high,1,synthetic
+AM-0315,"मेरा सामान Hyderabad पर नहीं पहुँचा, दो दिन से कोई जवाब नहीं @AeroMitra",Hindi,baggage,negative,medium,0,synthetic
+AM-0318,"Gate agent ne bina wajah mujhe Goa flight se roka, attitude hi alag tha Consumer court jaunga.",Hinglish,staff,negative,medium,1,synthetic
+AM-0328,"AeroMitra app baar baar crash ho raha hai, web check-in nahi ho pa raha, AM515 ka time nikal raha hai",Hinglish,app_booking,negative,low,0,synthetic
+AM-0329,seat recline nahi hui aur ac bhi kharab tha 7 ghante tak. paisa vasool nahi,Hinglish,comfort_service,negative,low,0,synthetic
+AM-0331,Overpriced and cold snacks on AM110. Seat was also broken. @AeroMitra,English,comfort_service,negative,low,0,synthetic
+AM-0335,"Exam ke liye Pune jaana tha, flight cancel. ek saal ki mehnat pe paani phir gaya @AeroMitra 😡",Hinglish,cancellation,negative,medium,0,synthetic
+AM-0336,"meri mummy ko medical emergency thi, crew ne oxygen dene me 15 minute laga diye @aeromitra #aeromitrafail",Hinglish,safety_medical,negative,high,1,synthetic
+AM-0339,"AM843 landing ke time overhead bin se smoke jaisa kuch nikla, crew ne kuch bataya nahi. safety ke saath khilwad",Hinglish,safety_medical,negative,high,1,synthetic
+AM-0340,"Cancelled flight, no rebooking offered, and the call centre keeps hanging up. Great service 🙄 Taking this to the consumer forum.",English,cancellation,negative,medium,1,synthetic
+AM-0343,"Wheelchair maangi toh staff ne bola 'aap ko pehle bolna chahiye tha', phir 8 ghante wait karaya. disabled logon ke saath aisa?",Hinglish,discrimination,negative,high,1,synthetic
+AM-0344,"Another day, another delayed AeroMitra flight. Punctuality clearly not on the menu 🙃 Will go viral if not fixed today.",English,delay,negative,low,1,synthetic
+AM-0347,"Check-in counter pe staff ka behaviour bahut rude tha, seedha muh pe bol diya 'jo karna hai kar lo' #BoycottAeroMitra",Hinglish,staff,negative,medium,1,synthetic
+AM-0349,AM457 cancel hone ki khabar mujhe airport pahunchne ke baad mili. ye koi tareeka hai kya?,Hinglish,cancellation,negative,medium,0,synthetic
+AM-0350,Crew ne mujhe aur meri mummy ko sirf hamari bhasha ki wajah se alag treat kiya. ye bhedbhaav hai @AeroMitra #BoycottAeroMitra,Hinglish,discrimination,negative,high,1,synthetic
+AM-0351,What is the cabin baggage limit on AM743? @AeroMitra,English,query,neutral,none,0,synthetic
+AM-0357,"Mera bag toh Goa chala gaya, main Bengaluru me hoon. best airline ever, usse vacation pe bhej diya 😂",Hinglish,baggage,negative,medium,0,synthetic
+AM-0360,"Mera bag toh Goa chala gaya, main Ahmedabad me hoon. best airline ever, usse vacation pe bhej diya 😂",Hinglish,baggage,negative,medium,0,synthetic
+AM-0364,"Check-in counter pe staff ka behaviour bahut rude tha, seedha muh pe bol diya 'jo karna hai kar lo' #AeroMitraFail",Hinglish,staff,negative,medium,1,synthetic
+AM-0367,Stuck at Ahmedabad airport for 3 hours. No one at the counter has an answer. Will be filing a complaint with DGCA.,English,delay,negative,low,1,synthetic
+AM-0373,"Staff refused to seat my elderly mother with us because of her accent and clothes. Discrimination, plain and simple. @AeroMitra 🤦",English,discrimination,negative,high,1,synthetic
+AM-0374,"Smooth flight AM366, friendly crew and on time. Well done @AeroMitra",English,praise,positive,none,0,synthetic
+AM-0379,AM676 के खाने में कीड़ा निकला। यह सीधे यात्रियों की सेहत से खिलवाड़ है @AeroMitra,Hindi,safety_medical,negative,high,1,synthetic
+AM-0380,cancelled flight ka refund 10 din se pending h. har baar bolte hain 7 din me aayega,Hinglish,refund,negative,medium,0,synthetic
+AM-0382,Checked bag still missing at Pune. Tracking shows nothing. @AeroMitra,English,baggage,negative,medium,0,synthetic
+AM-0389,"Wah AeroMitra wah, shaadi ke din flight cancel. dhanyavaad! 👏 😤",Hinglish,cancellation,negative,medium,0,synthetic
+AM-0391,kya am546 ka status check kar sakte hn? departure time confirm karna tha,Hinglish,query,neutral,none,0,synthetic
+AM-0394,"Another day, another delayed AeroMitra flight. Punctuality clearly not on the menu 🙃 Will be filing a complaint with DGCA.",English,delay,negative,low,1,synthetic
+AM-0397,"AM761 cancel kar di last minute pe, na message na call. kaise chalega ye @AeroMitra",Hinglish,cancellation,negative,medium,0,synthetic
+AM-0399,Web check-in kitne ghante pehle khulta hai @AeroMitra? 😞,Hinglish,query,neutral,none,0,synthetic
+AM-0400,"Bag miss ho gaya hai Kolkata pe, claim form kahan bharna hai? @AeroMitra",Hinglish,baggage,neutral,medium,0,synthetic
+AM-0402,"खाना ठंडा और बेस्वाद था, सीट भी खराब थी @AeroMitra",Hindi,comfort_service,negative,low,0,synthetic
+AM-0403,Entertainment screen dead for the whole 7-hour flight. At this price? Really? @AeroMitra,English,comfort_service,negative,low,0,synthetic
+AM-0407,legroom itna kam hai ki am257 me ghutne chhil gaye. economy matlab saza hai kya,Hinglish,comfort_service,negative,low,0,synthetic
+AM-0409,"Jaipur एयरपोर्ट पर 5 घंटे से इंतज़ार कर रहे हैं, स्टाफ कुछ बताता ही नहीं",Hindi,delay,negative,medium,0,synthetic
+AM-0413,seat recline nahi hui aur ac bhi kharab tha 8 ghante tak. paisa vasool nahi 🤦,Hinglish,comfort_service,negative,low,0,synthetic
+AM-0424,"wah aeromitra wah, shaadi ke din flight cancel. dhanyavaad! 👏 media ko bata raha hoon.",Hinglish,cancellation,negative,medium,1,synthetic
+AM-0427,"Best experience in a long time, Kochi se smooth flight aur free upgrade bhi mil gaya!",Hinglish,praise,positive,none,0,synthetic
+AM-0428,"Refund request daali thi, ab tak paisa nahi aaya aur customer care wale line kaat dete hain #AeroMitraFail",Hinglish,refund,negative,medium,1,synthetic
+AM-0430,"Cancelled flight, no rebooking offered, and the call centre keeps hanging up. Great service 🙄 😞",English,cancellation,negative,medium,0,synthetic
+AM-0432,"AM471 landing ke time overhead bin se smoke jaisa kuch nikla, crew ne kuch bataya nahi. safety ke saath khilwad Consumer court jaunga.",Hinglish,safety_medical,negative,high,1,synthetic
+AM-0440,App me meal pre-book karne ka option kahan hai? dhundh nahi pa raha @AeroMitra,Hinglish,app_booking,neutral,low,0,synthetic
+AM-0442,"@AeroMitra flight AM496 phir se late. har baar yahi kahani, time ki koi value nahi hai kya Consumer court jaunga.",Hinglish,delay,negative,low,1,synthetic
+AM-0447,App me meal pre-book karne ka option kahan hai? dhundh nahi pa raha @AeroMitra 😡,Hinglish,app_booking,neutral,low,0,synthetic
+AM-0448,web check-in is down again and the airport counter queue is 1 hour long. fix your app. @aeromitra 😡,English,app_booking,negative,low,0,synthetic
+AM-0452,AM617 cancelled with no prior notice. Family wedding missed. @AeroMitra explain yourselves,English,cancellation,negative,medium,0,synthetic
+AM-0453,"AM628 landing ke time overhead bin se smoke jaisa kuch nikla, crew ne kuch bataya nahi. safety ke saath khilwad Sabko share karunga, RT karo.",Hinglish,safety_medical,negative,high,1,synthetic
+AM-0454,"Goa एयरपोर्ट पर 7 घंटे से इंतज़ार कर रहे हैं, स्टाफ कुछ बताता ही नहीं #AeroMitraFail",Hindi,delay,negative,medium,1,synthetic
+AM-0455,"Ticket ki date change karni hai, kitna charge lagega aur kaise hoga?",Hinglish,query,neutral,none,0,synthetic
+AM-0457,"Flight late thi but crew ne bahut achhe se sambhala, ch aur snacks free diye. dil jeet liya",Hinglish,praise,positive,none,0,synthetic
+AM-0461,"AM819 अचानक रद्द कर दी गई, कोई वैकल्पिक व्यवस्था नहीं। @AeroMitra जवाब दो",Hindi,cancellation,negative,medium,0,synthetic
+AM-0463,kya am128 ka status check kar sakte hain? departure time confirm karna tha,Hinglish,query,neutral,none,0,synthetic
+AM-0464,"AM656 अचानक रद्द कर दी गई, कोई वैकल्पिक व्यवस्था नहीं। @AeroMitra जवाब दो",Hindi,cancellation,negative,medium,0,synthetic
+AM-0475,Oxygen mask demo skipped on AM113 and a door light kept blinking. Not okay at all. @AeroMitra Will be filing a complaint with DGCA.,English,safety_medical,negative,high,1,synthetic
+AM-0477,"AM541 bilkul time pe land hui, crew bahut helpful tha. thank you @AeroMitra",Hinglish,praise,positive,none,0,synthetic
+AM-0482,"मेरा सामान Hyderabad पर नहीं पहुँचा, दो दिन से कोई जवाब नहीं @AeroMitra मीडिया को बताऊँगा।",Hindi,baggage,negative,medium,1,synthetic
+AM-0485,Flight me ek yatri ko seene me dard hua aur crew ko first aid ka pata hi nahi tha. dangerous h ye,Hinglish,safety_medical,negative,high,1,synthetic
+AM-0487,"Smooth flight AM532, friendly crew and on time. Well done @AeroMitra",English,praise,positive,none,0,synthetic
+AM-0494,"turbulence ke time seatbelt sign hi nahi jala, 2 log gir gaye. @aeromitra ye kya hai consumer court jaunga.",Hinglish,safety_medical,negative,high,1,synthetic
+AM-0500,"Meeting miss ho gayi because of AM526 delay. thanks AeroMitra, bahut bada kaam kiya 👏",Hinglish,delay,negative,low,0,synthetic
+AM-0507,oxygen mask demo skipped on am763 and a door light kept blinking. not okay at all. @aeromitra,English,safety_medical,negative,high,1,synthetic
+AM-0509,"Wah AeroMitra wah, 3 ghante late aake bol rahe hn 'sorry for inconvenience'. bas yahi bacha tha 🙄",Hinglish,delay,negative,low,0,synthetic
+AM-0512,"Check-in counter pe staff ka behaviour bahut rude tha, seedha muh pe bol diya 'jo karna hai kar lo' Consumer court jaunga. 😡",Hinglish,staff,negative,medium,1,synthetic
+AM-0514,Seat recline nahi hui aur AC bhi kharab tha 5 ghante tak. paisa vasool nahi 🤦,Hinglish,comfort_service,negative,low,0,synthetic
+AM-0524,"Meeting miss ho gayi because of AM286 delay. thanks AeroMitra, bahut bada kaam kiya 👏 #AeroMitraFail",Hinglish,delay,negative,low,1,synthetic
+AM-0525,"AM724 landing ke time overhead bin se smoke jaisa kuch nikla, crew ne kuch bataya nahi. safety ke saath khilwad",Hinglish,safety_medical,negative,high,1,synthetic
+AM-0539,"wah aeromitra wah, shaadi ke din flight cancel. dhanyavaad! 👏 consumer court jaunga.",Hinglish,cancellation,negative,medium,1,synthetic
+AM-0540,Still waiting on my refund after 10 days. Customer care keeps saying 'in process' @AeroMitra Taking this to the consumer forum.,English,refund,negative,medium,1,synthetic
+AM-0542,AM823 delayed by 8 hours with zero announcements. Unacceptable @AeroMitra Will go viral if not fixed today.,English,delay,negative,medium,1,synthetic
+AM-0543,AM733 ka new departure time kya hai? screen pe 2 baar change ho chuka hai @AeroMitra,Hinglish,delay,neutral,low,0,synthetic
+AM-0545,Kya AM153 ka status check kar sakte hain? departure time confirm karna tha,Hinglish,query,neutral,none,0,synthetic
+AM-0546,"flight theek thi, na bahut achhi na buri. khaana average tha @aeromitra 🤦",Hinglish,comfort_service,neutral,low,0,synthetic
+AM-0547,"mera luggage lucknow pe aaya hi nahi, 2 din ho gaye aur helpline phone nahi utha rahi consumer court jaunga.",Hinglish,baggage,negative,medium,1,synthetic
+AM-0552,Oxygen mask demo skipped on AM882 and a door light kept blinking. Not okay at all. @AeroMitra Taking this to the consumer forum.,English,safety_medical,negative,high,1,synthetic
+AM-0559,"Gate agent ne bina wajah mujhe Jaipur flight se roka, attitude hi alag tha #AeroMitraFail",Hinglish,staff,negative,medium,1,synthetic
+AM-0564,मेरे पहनावे और बोली की वजह से स्टाफ ने अलग व्यवहार किया। यह भेदभाव है @AeroMitra #AeroMitraFail,Hindi,discrimination,negative,high,1,synthetic
+AM-0565,What is the cabin baggage limit on AM680? @AeroMitra,English,query,neutral,none,0,synthetic
+AM-0567,Pet ko cabin me le jaa sakte hain kya? koi rule hai? 😞,Hinglish,query,neutral,none,0,synthetic
+AM-0569,"पैसा कट गया लेकिन टिकट नहीं मिला, रिफंड भी नहीं आ रहा",Hindi,refund,negative,medium,0,synthetic
+AM-0570,"AM432 cancel ho gayi hai, rebooking ka option kahan milega? @AeroMitra",Hinglish,cancellation,neutral,medium,0,synthetic
+AM-0571,"Refund request daali thi, ab tak paisa nahi aaya aur customer care wale line kaat dete hain Media ko bata raha hoon.",Hinglish,refund,negative,medium,1,synthetic
+AM-0578,"@AeroMitra paisa wapas karo yaar, flight tumne cancel ki aur refund me bhi tang kar rahe ho Media ko bata raha hoon. 😤",Hinglish,refund,negative,medium,1,synthetic
+AM-0580,"Gate agent ne bina wajah mujhe Delhi flight se roka, attitude hi alag tha",Hinglish,staff,negative,medium,0,synthetic
+AM-0582,"AM692 bilkul time pe land hui, crew bahutttt helpful tha. thank you @AeroMitra 😤",Hinglish,praise,positive,none,0,synthetic
+AM-0583,Lost my phone on the flight and the crew returned it within the hour. Thank you @AeroMitra,English,praise,positive,none,0,synthetic
+AM-0584,"AeroMitra app baar baar crash ho raha hai, web check-in nahi ho pa raha, AM890 ka time nikal raha hai",Hinglish,app_booking,negative,low,0,synthetic
+AM-0588,"am557 landing ke time overhead bin se smoke jaisa kuch nikla, crew ne kuch bataya nahi. safety ke saath khilwad",Hinglish,safety_medical,negative,high,1,synthetic
+AM-0589,"Best experience in a long time, Kolkata se smooth flight aur free upgrade bhi mil gaya!",Hinglish,praise,positive,none,0,synthetic
+AM-0592,उड़ान समय पर थी और स्टाफ बहुत मददगार था। धन्यवाद @AeroMitra,Hindi,praise,positive,none,0,synthetic
+AM-0596,Quickest check-in I have had in years at Hyderabad. Great job team @AeroMitra,English,praise,positive,none,0,synthetic
+AM-0600,"AM577 bilkul time pe land hui, crew bahut helpful tha. thank you @AeroMitra",Hinglish,praise,positive,none,0,synthetic
+AM-0601,Found a metal piece in my meal on AM257. This is a serious safety issue. @AeroMitra #BoycottAeroMitra,English,safety_medical,negative,high,1,synthetic
+AM-0603,Stuck at Delhi airport for 6 hours. No one at the counter has an answer.,English,delay,negative,medium,0,synthetic
+AM-0606,"Refund request daali thi, ab tak paisa nahi aaya aur customer care wale line kaat dete hain #BoycottAeroMitra",Hinglish,refund,negative,medium,1,synthetic
+AM-0607,Still waiting on my refund after 10 days. Customer care keeps saying 'in process' @AeroMitra,English,refund,negative,medium,0,synthetic
+AM-0613,am142 cancel hone ki khabar mujhe airport pahunchne ke baad mili. ye koi tareeka hai kya?,Hinglish,cancellation,negative,medium,0,synthetic
+AM-0616,Still waiting on my refund after 15 days. Customer care keeps saying 'in process' @AeroMitra Will go viral if not fixed today.,English,refund,negative,medium,1,synthetic
+AM-0617,AM488 के खाने में कीड़ा निकला। यह सीधे यात्रियों की सेहत से खिलवाड़ है @AeroMitra,Hindi,safety_medical,negative,high,1,synthetic
+AM-0623,passenger fainted mid-air and crew had no idea what to do. @aeromitra needs urgent training 😞,English,safety_medical,negative,high,1,synthetic
+AM-0627,"Wheelchair maangi toh staff ne bola 'aap ko pehle bolna chahiye tha', phir 7 ghante wait karaya. disabled logon ke saath aisa?",Hinglish,discrimination,negative,high,1,synthetic
+AM-0631,"Wah kya service hai, counter wale ne bola 'main kya karu, upar se order hai'. thank you for nothing 👍 😡",Hinglish,staff,negative,medium,0,synthetic
+AM-0635,"Wah kya service hai, counter wale ne bola 'main kya karu, upar se order hai'. thank you for nothing 👍",Hinglish,staff,negative,medium,0,synthetic

@@ -1,0 +1,12 @@
+streamlit
+groq
+pandas
+numpy
+scipy
+scikit-learn
+joblib
+chromadb
+pydantic
+python-dotenv
+pytest
+

@@ -9,7 +9,7 @@ ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
 from src.llm import classify_post, draft_reply
 from src.pipeline import analyze, validate_draft
-from src.virality import predict_probability
+from src.virality import predict_probability, train as train_virality
 
 st.set_page_config(page_title="AeroMitra AI", page_icon="✈️", layout="wide")
 st.warning("Educational prototype. Not legal, financial, medical or PR advice. AeroMitra is a fictional airline. Nothing is published automatically.")
@@ -23,6 +23,13 @@ demo_cases = {
     "Sarcastic Hinglish": "Meeting miss ho gayi because of AM364 delay. Thanks AeroMitra, bahut bada kaam kiya 👏 #AeroMitraFail",
 }
 
+def get_spread_probability(text: str) -> float:
+    model_file = ROOT / "models" / "virality_model.joblib"
+    features_file = ROOT / "models" / "virality_features.joblib"
+    if not model_file.exists() or not features_file.exists():
+        train_virality(ROOT / "data" / "virality_train.csv", model_file, features_file)
+    return predict_probability(text, model_file, features_file)
+
 tab_inbox, tab_queue, tab_report = st.tabs(["Inbox", "Approval Queue", "Model Report"])
 
 with tab_inbox:
@@ -32,9 +39,7 @@ with tab_inbox:
         try:
             with st.spinner("Classifying and retrieving policy..."):
                 classification = classify_post(text)
-                model_file = ROOT / "models" / "virality_model.joblib"
-                features_file = ROOT / "models" / "virality_features.joblib"
-                spread_probability = predict_probability(text, model_file, features_file) if model_file.exists() and features_file.exists() else 0.5
+                spread_probability = get_spread_probability(text)
                 result = analyze(text, classification, spread_probability)
             st.session_state["analysis"] = result
             st.session_state["post"] = text
@@ -85,5 +90,12 @@ with tab_report:
         st.json(json.loads(metrics_path.read_text(encoding="utf-8")))
     else:
         st.info("Run the training and evaluation scripts to populate metrics.")
+    for title, filename in [("Virality metrics", "virality_metrics.json"), ("LLM evaluation metrics", "llm_eval_metrics.json")]:
+        st.subheader(title)
+        path = ROOT / "reports" / filename
+        if path.exists():
+            st.json(json.loads(path.read_text(encoding="utf-8")))
+        else:
+            st.info(f"{filename} is not available yet.")
     st.markdown("Synthetic labels and LLM results are educational measurements, not production performance.")
 

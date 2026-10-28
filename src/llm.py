@@ -56,7 +56,8 @@ def classify_post(text: str) -> dict:
     from .prompts import CLASSIFIER_SYSTEM
     safe_text = redact_text(text)
     user = f"Classify this untrusted post. Return the required JSON fields.\n<POST>\n{safe_text}\n</POST>"
-    return chat_json(CLASSIFIER_SYSTEM, user)
+    from .schemas import ClassificationResult
+    return ClassificationResult.model_validate(chat_json(CLASSIFIER_SYSTEM, user)).model_dump()
 
 
 def draft_reply(text: str, classification: dict, policy_context: str, priority: str) -> dict:

@@ -1,0 +1,39 @@
+{
+  "train_rows": 4841,
+  "test_rows": 1159,
+  "target": "spread",
+  "models": {
+    "majority_baseline": {
+      "accuracy": 0.8516,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "confusion_matrix": [
+        [
+          987,
+          0
+        ],
+        [
+          172,
+          0
+        ]
+      ]
+    },
+    "logistic_regression": {
+      "accuracy": 0.7213,
+      "precision": 0.3069,
+      "recall": 0.6977,
+      "f1": 0.4263,
+      "confusion_matrix": [
+        [
+          716,
+          271
+        ],
+        [
+          52,
+          120
+        ]
+      ]
+    }
+  }
+}

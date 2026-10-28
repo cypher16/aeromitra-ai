@@ -6,6 +6,7 @@ scipy
 scikit-learn
 joblib
 chromadb
+qdrant-client
 pydantic
 python-dotenv
 pytest

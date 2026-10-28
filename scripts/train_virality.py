@@ -1,4 +1,5 @@
 from pathlib import Path
+import sys
 import json
 import pandas as pd
 from sklearn.dummy import DummyClassifier
@@ -8,6 +9,7 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from scipy.sparse import hstack
 from sklearn.linear_model import LogisticRegression
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from src.virality import CAT_FEATURES, NUM_FEATURES, train
 
 root = Path(__file__).resolve().parents[1]

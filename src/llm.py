@@ -14,7 +14,19 @@ def _api_key() -> str:
         value = st.secrets.get("GROQ_API_KEY", "")
     except Exception:
         value = ""
-    return value or os.getenv("GROQ_API_KEY", "")
+    if value:
+        return value
+    env_value = os.getenv("GROQ_API_KEY", "")
+    if env_value:
+        return env_value
+    local_secrets = Path(__file__).resolve().parents[1] / ".streamlit" / "secrets.toml"
+    if local_secrets.exists():
+        try:
+            import tomllib
+            return tomllib.loads(local_secrets.read_text(encoding="utf-8")).get("GROQ_API_KEY", "")
+        except Exception:
+            return ""
+    return ""
 
 
 def chat_json(system: str, user: str, max_tokens: int = 400) -> dict:

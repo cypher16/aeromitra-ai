@@ -2,12 +2,14 @@
   "train_rows": 4841,
   "test_rows": 1159,
   "target": "spread",
+  "selection_rule": "highest recall among models with precision >= 0.25; tie-break by F1",
   "models": {
     "majority_baseline": {
       "accuracy": 0.8516,
       "precision": 0.0,
       "recall": 0.0,
       "f1": 0.0,
+      "average_precision": 0.1484,
       "confusion_matrix": [
         [
           987,
@@ -24,6 +26,7 @@
       "precision": 0.3069,
       "recall": 0.6977,
       "f1": 0.4263,
+      "average_precision": 0.3995,
       "confusion_matrix": [
         [
           716,
@@ -34,6 +37,41 @@
           120
         ]
       ]
+    },
+    "linear_svm": {
+      "accuracy": 0.8533,
+      "precision": 1.0,
+      "recall": 0.0116,
+      "f1": 0.023,
+      "average_precision": 0.3821,
+      "confusion_matrix": [
+        [
+          987,
+          0
+        ],
+        [
+          170,
+          2
+        ]
+      ]
+    },
+    "sgd_log_loss": {
+      "accuracy": 0.6903,
+      "precision": 0.2851,
+      "recall": 0.7209,
+      "f1": 0.4086,
+      "average_precision": 0.3775,
+      "confusion_matrix": [
+        [
+          676,
+          311
+        ],
+        [
+          48,
+          124
+        ]
+      ]
     }
-  }
+  },
+  "selected_model": "sgd_log_loss"
 }

@@ -93,11 +93,30 @@ def classify_post(text: str) -> dict:
 
 def draft_reply(text: str, classification: dict, policy_context: str, priority: str) -> dict:
     from .prompts import REPLY_SYSTEM
+    from .guardrails import validate_reply
     user = json.dumps({
         "post": redact_text(text),
         "classification": classification,
         "priority": priority,
         "policy_context": policy_context,
     }, ensure_ascii=False)
-    return chat_json(REPLY_SYSTEM, user, max_tokens=250)
+    try:
+        return chat_json(REPLY_SYSTEM, user, max_tokens=250)
+    except RuntimeError:
+        issue = classification.get("issue_type", "other")
+        if priority == "P1":
+            draft = ""
+        elif issue == "query":
+            draft = "Please check the AeroMitra app or website for the latest information. If you need further help, please send us a direct message."
+        elif issue == "refund":
+            draft = "We are sorry about the delay. Please send your booking ID by direct message so our care team can check the refund status."
+        else:
+            draft = "We are sorry you had this experience. Please send your booking ID by direct message so our care team can look into it."
+        return {
+            "draft_reply": draft,
+            "reply_allowed": priority != "P1" and not validate_reply(draft),
+            "human_review_required": True,
+            "policy_sources": ["Fallback policy-safe template"],
+            "validation_warnings": ["LLM returned no usable JSON. Human review required; deterministic policy-safe fallback shown."],
+        }
 
